@@ -47,3 +47,12 @@ print(qoutient, remainder)
 import os
 _, fireName = os.path.split('home/luciano/.ssh/idirsa.pub')
 print(fireName)
+
+
+'''用*获取其他元素(python3)'''
+a, b, *rest = range(5)
+print(a, b, rest)
+a, b, *rest = range(3)
+print(a, b, rest)
+a, b, *rest = range(2)
+print(a, b, rest)
